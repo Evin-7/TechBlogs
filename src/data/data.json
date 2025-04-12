@@ -1,0 +1,102 @@
+[
+  {
+    "heading": "Introducing Vue 3 Composition API",
+    "date": "Oct 09, 2018",
+    "description": "The Composition API in Vue 3 introduces a new way to organize and reuse logic across components, helping with code organization and scalability for large applications."
+  },
+  {
+    "heading": "Understanding Tailwind Utility Classes",
+    "date": "Oct 10, 2018",
+    "description": "Tailwind CSS uses a utility-first approach, meaning each class performs a specific task. This results in faster styling, less CSS bloat, and easier maintenance over time."
+  },
+  {
+    "heading": "Building Reusable Components",
+    "date": "Oct 11, 2018",
+    "description": "Reusable components allow you to build modular UIs that are consistent and easy to maintain. Proper use of props and slots can greatly enhance flexibility."
+  },
+  {
+    "heading": "Routing with Vue Router",
+    "date": "Oct 12, 2018",
+    "description": "Vue Router helps in creating single-page applications by mapping routes to components, managing navigation guards, and handling dynamic segments efficiently."
+  },
+  {
+    "heading": "State Management with Pinia",
+    "date": "Oct 13, 2018",
+    "description": "Pinia is the official state management solution for Vue 3, offering a simpler and more intuitive API than Vuex while being fully TypeScript compatible."
+  },
+  {
+    "heading": "Improving Accessibility in Vue Apps",
+    "date": "Oct 14, 2018",
+    "description": "Ensuring your app is accessible means supporting keyboard navigation, screen readers, and proper color contrast — improving usability for all users."
+  },
+  {
+    "heading": "Performance Optimizations for Vue",
+    "date": "Oct 15, 2018",
+    "description": "To optimize Vue performance, consider lazy loading, component-level caching, and code-splitting to improve initial load and interactivity time."
+  },
+  {
+    "heading": "Deploying with Vite",
+    "date": "Oct 16, 2018",
+    "description": "Vite offers lightning-fast development and optimized production builds. Deploy your Vue 3 app seamlessly to Netlify, Vercel, or your preferred host."
+  },
+  {
+    "heading": "Vue Transitions and Animations",
+    "date": "Oct 17, 2018",
+    "description": "Vue provides built-in transition components for animating elements as they enter or leave the DOM, enhancing user experience with smooth visual feedback."
+  },
+  {
+    "heading": "Managing Forms in Vue",
+    "date": "Oct 18, 2018",
+    "description": "Handling forms in Vue is straightforward with v-model, but validation and state management can be streamlined using libraries like VeeValidate."
+  },
+  {
+    "heading": "Dark Mode with Tailwind CSS",
+    "date": "Oct 19, 2018",
+    "description": "Tailwind CSS supports dark mode using class strategies. Customize themes dynamically to provide a better user experience and accessibility."
+  },
+  {
+    "heading": "Deploying a Vue App to GitHub Pages",
+    "date": "Oct 20, 2018",
+    "description": "GitHub Pages allows you to host static websites for free. Use the `vite-plugin-pages` or GitHub Actions to automate deployment of your Vue app."
+  },
+  {
+    "heading": "Integrating APIs with Axios",
+    "date": "Oct 21, 2018",
+    "description": "Axios is a promise-based HTTP client used to fetch data from APIs. Handle errors gracefully and store responses in a state management system like Pinia."
+  },
+  {
+    "heading": "Vue 3 Lifecycle Hooks",
+    "date": "Oct 22, 2018",
+    "description": "Lifecycle hooks like `onMounted`, `onUpdated`, and `onUnmounted` allow you to tap into the component's lifecycle and execute logic at key points."
+  },
+  {
+    "heading": "Creating Custom Directives in Vue",
+    "date": "Oct 23, 2018",
+    "description": "Custom directives extend Vue’s template syntax and can be used for things like detecting clicks outside elements or applying tooltips dynamically."
+  },
+  {
+    "heading": "Pagination in Vue Apps",
+    "date": "Oct 24, 2018",
+    "description": "Pagination is essential for handling large datasets. Combine API support with UI logic to deliver fast and responsive navigation through pages."
+  },
+  {
+    "heading": "Building a Blog with Vue and Markdown",
+    "date": "Oct 25, 2018",
+    "description": "You can build static blogs using Vue and Markdown parsing libraries like `marked`, combining dynamic Vue components with content from `.md` files."
+  },
+  {
+    "heading": "Authentication with Firebase in Vue",
+    "date": "Oct 26, 2018",
+    "description": "Firebase Authentication offers a quick way to add login/signup flows to your Vue app. Combine it with route guards to protect pages and fetch user data."
+  },
+  {
+    "heading": "Using Composition API vs Options API",
+    "date": "Oct 27, 2018",
+    "description": "The Composition API offers better code organization for complex components, while the Options API is easier for newcomers. Choose what fits your team."
+  },
+  {
+    "heading": "Integrating Vue with Tailwind Plugins",
+    "date": "Oct 28, 2018",
+    "description": "Tailwind plugins like `forms`, `typography`, and `aspect-ratio` can be added to enhance your styles, especially for form elements and content-rich pages."
+  }
+]
