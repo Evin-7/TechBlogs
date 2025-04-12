@@ -19,18 +19,23 @@ const updateSearch = (query) => {
   </div>
 
   <div
-    class="flex flex-wrap flex-row bg-white justify-center items-center pt-[50px] mt-[70px]"
+    class="flex flex-wrap flex-col md:flex-row bg-white justify-center items-center pt-[50px] mt-[70px]"
   >
     <div
-      class="flex flex-wrap w-[93%] justify-center bg-[#D3D3D3] h-[100vh] flex-row overflow-y-auto"
+      class="w-full md:w-[93%] flex flex-col md:flex-row justify-center bg-[#D3D3D3] overflow-y-auto"
+      :style="{ height: `calc(100vh - 70px)` }"
     >
-      <div class="w-[65%] pl-[55px] pt-[50px]">
-        <span class="font-bold text-[30px]">Search</span>
+      <div
+        class="w-full md:w-[65%] p-[10px] md:p-[0px] md:pl-[55px] pt-[2000px] md:pt-[50px]"
+      >
+        <span class="font-bold text-[24px] md:text-[30px]">Search</span>
         <SearchInput @updateSearch="updateSearch" />
         <SearchResults :items="data" :searchQuery="searchQuery" />
       </div>
 
-      <div class="w-[35%] pl-[40px] font-poppins pr-[40px] pt-[40px]">
+      <div
+        class="w-full md:w-[35%] p-[10px] md:p-[0px] md:pl-[40px] font-poppins pr-[20px] md:pr-[40px] pt-[20px] md:pt-[40px]"
+      >
         <ArticleCard />
       </div>
     </div>
@@ -48,6 +53,5 @@ const updateSearch = (query) => {
 
 .overflow-y-auto {
   overflow-y: auto;
-  height: calc(100vh - 70px);
 }
 </style>

@@ -22,7 +22,7 @@ const filteredItems = computed(() => {
           item.date.toLowerCase().includes(query)
         );
       })
-      .slice(0, 10); // Limit to 10 results
+      .slice(0, 10);
   }
 
   const start = (currentPage.value - 1) * itemsPerPage;
